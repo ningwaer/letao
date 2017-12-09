@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover,
+a:focus {
+    text-decoration: none;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+h3 {
+    padding: 0;
+    margin: 0;
+}
+
+.info {
+    width: 180px;
+    background-color: #202E33;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.info .head {
+    height: 50px;
+    background-color: #137EAC;
+}
+
+.info .head>a {
+    color: white;
+}
+
+.info .head>a h3 {
+    text-align: center;
+    line-height: 50px;
+}
+
+.info .pic {
+    padding: 30px 20px;
+}
+
+.info .pic>img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.info .pic>span {
+    color: white;
+    font-size: 13px;
+}
+
+.info .content>ul>li.active>a {
+    color: white;
+    background-color: #1d1f21;
+    border-left-color: #3c8dbc;
+}
+
+.info .content>ul>li>a {
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    color: #aaa;
+    border: 3px solid transparent;
+    padding-left: 30px;
+}
+
+.info .content>ul>li>a span {
+    margin-right: 5px;
+}
+
+.info .content>ul>li ol li>a {
+    height: 30px;
+    line-height: 30px;
+    padding-left: 50px;
+    font-size: 12px;
+    color: #aaa;
+}
+
+.info .content>ul>li ol li.active a {
+    color: white;
+}
+
+.nav {
+    display: block;
+    margin-bottom: 20px;
+    height: 50px;
+    background-color: #3c8dbc;
+    padding: 0 15px 0 195px;
+}
+
+.nav.moveleft {
+    padding-left: 15px;
+}
+
+.nav>a {
+    color: white;
+}
+
+.nav>a>span {
+    line-height: 50px;
+}
+
+.path {
+    height: 100%;
+    width: 100%;
+    margin-left: 15px;
+    padding-left: 180px;
+}
+
+.path.moveleft {
+    padding-left: 0;
+}
+
+.path .breadcrumb {
+    width: 95%;
+}
+
+.path .breadcrumb>ol>li {
+    color: #777;
+}
+
+.table {
+    width: 95%;
+}
+.mb {
+    margin-bottom: 20px;
+}
+th,
+tr {
+    text-align: center;
+}

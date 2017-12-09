@@ -41,7 +41,7 @@ $(function(){
         var name = $(this).data('name');
         var isDelete = $(this).hasClass('btn-danger')?0:1;
         /*显示模态框*/
-        $('#optionModal').find('strong').html(($(this).hasClass('btn-danger')?'禁用 ':'启用 ')+name);
+        $('#optionModal').find('strong').html(($(this).hasClass('btn-danger')?'禁用':'启用 ')+name);
         $('#optionModal').modal('show');
         $('#optionModal').off('click','.btn-primary').on('click','.btn-primary',function(){
             /*发送请求*/
